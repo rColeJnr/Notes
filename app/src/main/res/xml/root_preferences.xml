@@ -1,0 +1,13 @@
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreferenceCompat
+        app:defaultValue="false"
+        app:key="theme"
+        app:title="@string/select_theme"/>
+
+    <SwitchPreferenceCompat
+        app:defaultValue="false"
+        app:key="dividingLines"
+        app:title="@string/add_dividers"/>
+</PreferenceScreen>
